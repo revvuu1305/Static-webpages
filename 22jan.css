@@ -1,0 +1,264 @@
+*{
+    
+    box-sizing: border-box;
+}
+/*header*/
+.header{
+    display: flex;
+}
+.header1{
+    display: flex;
+    flex: 35%;
+}
+/*section1*/
+.h1{
+    font-size: 30px;
+    margin: 95px;
+    padding-left: 25px;
+    margin-top: 25px;
+}
+.h2{
+    display: flex;
+    margin-top: 25px;
+}
+.h2 li{
+     list-style-type: none;
+     padding:5px 30px;   
+}
+.h2 a{
+      text-decoration: none;
+      color: black;
+}
+/*section2*/
+.h3{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 210px;
+  
+}
+.h3 li{
+     list-style-type: none;
+     padding: 5px 30px;
+}
+.h3 a{
+    color: black;
+      text-decoration: none;
+}
+.h31 a{
+    color: white;
+    background-color: teal;
+   border: 11px solid teal;
+   border-radius: 20px;
+}
+/*banner*/
+.main{
+    display: flex;
+}
+.main1{
+     flex: 50%;
+}
+.img1{
+    margin-top: 25px;
+}
+.h12{
+    margin: 50px;
+    padding-left: 70px;
+    font-size: 80px;
+}
+.p12{
+    margin:-50px;
+    padding-left: 180px;
+    font-size: 18px;
+}
+.h21{
+    margin-top: 80px;
+   text-align: start;
+    padding-left: 130px; 
+}
+.h21 a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+   border: 11px solid teal;
+   border-radius: 20px;
+}
+.h3{
+   margin-left: 300px;
+}
+/*border*/
+.border{
+    background-color: lightgray;
+    max-height: 140px;
+}
+.border2{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-image: url("file:///C:/Users/Revathi%20Gangineni/AppData/Local/Temp/Temp1_url-shortening-api-master.zip/url-shortening-api-master/images/bg-boost-desktop.svg");
+    background-color:rgb(24, 18, 29) ;
+    margin: 50px;
+    margin-left: 130px;
+    align-items: center;
+    height: 150px; 
+}
+.border2 h1 a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+   border: 11px solid teal;
+   border-radius: 10px;
+}
+.border2 form{
+    width: 700px;
+    height: 50px;
+   border-radius: 5px;
+   margin: 30px;
+   
+}
+.border2 input{
+    width: 700px;
+    height: 40px;
+    margin-top: 6px;
+}
+/*content3*/
+.content{
+    background-color: lightgray;
+    text-align: center;
+     min-height: 150px;
+     max-height: 0px;
+     padding-top: 30px;
+}
+.content h1{
+    font-size: 30px;
+}
+/*Brand recognition*/
+.grid{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+} 
+.grid1{
+    display: flex;
+    line-height: 20px;
+    margin: 70px;
+    border: 1px solid white;   
+    background-color: white;
+    border-width: 20px;
+}
+/*img 1*/
+.g1 img{
+    border: 5px solid rgb(24, 18, 29);
+    background-color:rgb(24, 18, 29);
+    border-width: 20px;
+    border-radius: 50px;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+.g12{
+       margin: 5px;     
+       padding: 30px; 
+}
+.g12 h1{
+    font-size: 18px;
+    margin-top: -20px;
+    padding-right: 90px;
+}
+/*img2*/
+.g2 img{
+    border: 5px solid rgb(24, 18, 29);
+    background-color:rgb(24, 18, 29);
+    border-width: 20px;
+    border-radius: 50px;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+.g21{
+       margin: 5px;     
+       padding: 30px; 
+}
+.g21 h1{
+    font-size: 18px;
+    margin-top: -20px;
+    padding-right: 90px;
+}
+/*img 3*/
+.g3 img{
+    border: 1px solid rgb(24, 18, 29);
+    background-color:rgb(24, 18, 29);
+    border-radius: 50px;
+    margin-top: -160px;
+    margin-bottom: 30px;
+    padding: 15px;
+    margin-left: -15px;
+}
+.g3{
+       margin: 5px;     
+       padding: 30px; 
+}
+.g31 h1{
+    font-size: 18px;
+    margin-top: -20px;
+    padding-right: 90px;
+}
+/* Boost links*/
+.last{
+    text-align: center;
+    background-image: url("file:///C:/Users/Revathi%20Gangineni/AppData/Local/Temp/Temp1_url-shortening-api-master.zip/url-shortening-api-master/images/bg-boost-desktop.svg");
+    background-color:rgb(24, 18, 29);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    height: 210px;
+   padding: 25px; 
+}
+.h22 a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+   border: 11px solid teal;
+   border-radius: 20px;
+   font-size: 24px;
+}
+.last1 h1{
+    color: white;
+    font-size: 26px;
+}
+/* footer*/
+.footer{
+    background-color: black;
+    height: 350px;
+    display: flex;
+}
+.footer1{
+    display: flex;
+    color: white;
+    flex: 10%;
+    margin: 40px;
+    justify-content: center;
+    font-size: 28px;
+}
+.footer2{
+    color: white;
+    flex: 20%;
+    display: flex;
+    margin: 60px;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.f2 ul li{
+    list-style: none;
+}
+.footer3{
+    flex: 10%;
+    margin: 70px;
+}
+.f3 img{
+    display: inline;
+    flex: 1;
+   padding-left: 20px;
+    
+}
+.f1 h1{
+    color: white;
+}
+
