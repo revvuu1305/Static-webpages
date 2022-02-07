@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(7, 7, 7);
+    padding: 5px;
+    margin: 5px;
+   
+}
+.main1{
+    padding-right: 10px;
+    margin: 0px;
+    float: right;
+}
+.main2{
+    color: orange;
+}
+label{
+    color: red;
+}
+input{
+    color: white;
+}
+h1,h2{
+    color: white;
+}
+p{
+    color: white;
+}
+l{
+    float:right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+ul li a{
+    padding: 10px 50px;
+    color: rgb(240, 236, 236);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(243, 142, 142);
+    background-color: rgb(105, 23, 9);
+    width: 20px;
+}
+h2[class]{
+    color: orange;
+}
